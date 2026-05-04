@@ -1,0 +1,143 @@
+{
+  "LLM-Parsed (Ours)": {
+    "simple": {
+      "mIoU": 0.8821707129930177,
+      "precision": 0.3261,
+      "recall": 0.7456,
+      "f1": 0.4538,
+      "parse_ms": 347.3,
+      "parse_success_rate": 1.0,
+      "tp": 211,
+      "fp": 436,
+      "fn": 72
+    },
+    "ambiguous": {
+      "mIoU": 0.8821707129930177,
+      "precision": 0.3246,
+      "recall": 0.7456,
+      "f1": 0.4523,
+      "parse_ms": 338.3,
+      "parse_success_rate": 1.0,
+      "tp": 211,
+      "fp": 439,
+      "fn": 72
+    },
+    "complex": {
+      "mIoU": 0.8800242103388912,
+      "precision": 0.308,
+      "recall": 0.7314,
+      "f1": 0.4335,
+      "parse_ms": 373.9,
+      "parse_success_rate": 1.0,
+      "tp": 207,
+      "fp": 465,
+      "fn": 76
+    },
+    "indirect": {
+      "mIoU": 0.8825880360339903,
+      "precision": 0.2976,
+      "recall": 0.6961,
+      "f1": 0.4169,
+      "parse_ms": 340.7,
+      "parse_success_rate": 1.0,
+      "tp": 197,
+      "fp": 465,
+      "fn": 86
+    },
+    "overall_mIoU": 0.8817323190337775
+  },
+  "Keyword-Only": {
+    "simple": {
+      "mIoU": 0.8778598027098578,
+      "precision": 0.3031,
+      "recall": 0.7208,
+      "f1": 0.4268,
+      "parse_ms": 0.1,
+      "parse_success_rate": 1.0,
+      "tp": 204,
+      "fp": 469,
+      "fn": 79
+    },
+    "ambiguous": {
+      "mIoU": 0.8778598027098578,
+      "precision": 0.3031,
+      "recall": 0.7208,
+      "f1": 0.4268,
+      "parse_ms": 0.1,
+      "parse_success_rate": 1.0,
+      "tp": 204,
+      "fp": 469,
+      "fn": 79
+    },
+    "complex": {
+      "mIoU": 0.8797198367379732,
+      "precision": 0.3022,
+      "recall": 0.7208,
+      "f1": 0.4259,
+      "parse_ms": 0.1,
+      "parse_success_rate": 1.0,
+      "tp": 204,
+      "fp": 471,
+      "fn": 79
+    },
+    "indirect": {
+      "mIoU": 0.9201705959156323,
+      "precision": 0.0978,
+      "recall": 0.0318,
+      "f1": 0.048,
+      "parse_ms": 0.1,
+      "parse_success_rate": 0.19,
+      "tp": 9,
+      "fp": 83,
+      "fn": 274
+    },
+    "overall_mIoU": 0.8790840282824625
+  },
+  "Raw-Text": {
+    "simple": {
+      "mIoU": 0.8855797255111402,
+      "precision": 0.3945,
+      "recall": 0.7138,
+      "f1": 0.5082,
+      "parse_ms": 0.0,
+      "parse_success_rate": 1.0,
+      "tp": 202,
+      "fp": 310,
+      "fn": 81
+    },
+    "ambiguous": {
+      "mIoU": 0.8620703716367992,
+      "precision": 0.3644,
+      "recall": 0.5936,
+      "f1": 0.4516,
+      "parse_ms": 0.0,
+      "parse_success_rate": 1.0,
+      "tp": 168,
+      "fp": 293,
+      "fn": 115
+    },
+    "complex": {
+      "mIoU": 0.8802302045027053,
+      "precision": 0.3197,
+      "recall": 0.5795,
+      "f1": 0.4121,
+      "parse_ms": 0.0,
+      "parse_success_rate": 1.0,
+      "tp": 164,
+      "fp": 349,
+      "fn": 119
+    },
+    "indirect": {
+      "mIoU": 0.8742637948329526,
+      "precision": 0.3113,
+      "recall": 0.6643,
+      "f1": 0.4239,
+      "parse_ms": 0.0,
+      "parse_success_rate": 1.0,
+      "tp": 188,
+      "fp": 416,
+      "fn": 95
+    },
+    "overall_mIoU": 0.8759477478604867
+  }
+}

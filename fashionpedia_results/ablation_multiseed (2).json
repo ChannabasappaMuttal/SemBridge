@@ -1,0 +1,212 @@
+{
+  "LLM-Parsed (Ours)": {
+    "simple": {
+      "mean": {
+        "mIoU": 0.8821707129930177,
+        "precision": 0.3261,
+        "recall": 0.7456,
+        "f1": 0.4538,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "parse_success_rate": 0.0
+      }
+    },
+    "ambiguous": {
+      "mean": {
+        "mIoU": 0.8821707129930177,
+        "precision": 0.32493333333333335,
+        "recall": 0.7456,
+        "f1": 0.4526333333333333,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0008498365855987983,
+        "recall": 0.0,
+        "f1": 0.0008498365855987982,
+        "parse_success_rate": 0.0
+      }
+    },
+    "complex": {
+      "mean": {
+        "mIoU": 0.8830200292551958,
+        "precision": 0.3045,
+        "recall": 0.7255333333333334,
+        "f1": 0.429,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0021189122382007687,
+        "precision": 0.004669760878960145,
+        "recall": 0.008296719565922187,
+        "f1": 0.0060833105022402596,
+        "parse_success_rate": 0.0
+      }
+    },
+    "indirect": {
+      "mean": {
+        "mIoU": 0.8826715999797826,
+        "precision": 0.3005666666666667,
+        "recall": 0.6984666666666667,
+        "f1": 0.4202666666666666,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.00018293366201003187,
+        "precision": 0.0031329787033357883,
+        "recall": 0.005994627224069523,
+        "f1": 0.004074582459862876,
+        "parse_success_rate": 0.0
+      }
+    },
+    "overall": {
+      "mean": 0.8824994734641732,
+      "std": 0.0005430784567943093
+    }
+  },
+  "Keyword-Only": {
+    "simple": {
+      "mean": {
+        "mIoU": 0.8778598027098578,
+        "precision": 0.3031,
+        "recall": 0.7208,
+        "f1": 0.4268,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "parse_success_rate": 0.0
+      }
+    },
+    "ambiguous": {
+      "mean": {
+        "mIoU": 0.8778598027098578,
+        "precision": 0.3031,
+        "recall": 0.7208,
+        "f1": 0.4268,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "parse_success_rate": 0.0
+      }
+    },
+    "complex": {
+      "mean": {
+        "mIoU": 0.8797198367379732,
+        "precision": 0.3022,
+        "recall": 0.7208,
+        "f1": 0.4259,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "parse_success_rate": 0.0
+      }
+    },
+    "indirect": {
+      "mean": {
+        "mIoU": 0.919485206266646,
+        "precision": 0.0901,
+        "recall": 0.029433333333333336,
+        "f1": 0.044366666666666665,
+        "parse_success_rate": 0.21166666666666667
+      },
+      "std": {
+        "mIoU": 0.006504058226791996,
+        "precision": 0.00822475936831386,
+        "recall": 0.0033469720976163258,
+        "f1": 0.0047891080125171065,
+        "parse_success_rate": 0.015456030825826172
+      }
+    },
+    "overall": {
+      "mean": 0.8790225044431974,
+      "std": 5.3311450091016613e-05
+    }
+  },
+  "Raw-Text": {
+    "simple": {
+      "mean": {
+        "mIoU": 0.8802134666041095,
+        "precision": 0.3955,
+        "recall": 0.7090666666666667,
+        "f1": 0.5078,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.003847810673056808,
+        "precision": 0.00148548533034382,
+        "recall": 0.0066939441952326454,
+        "f1": 0.0025468935326524466,
+        "parse_success_rate": 0.0
+      }
+    },
+    "ambiguous": {
+      "mean": {
+        "mIoU": 0.8666165561799245,
+        "precision": 0.36883333333333335,
+        "recall": 0.6195333333333334,
+        "f1": 0.4623,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.004476009506458404,
+        "precision": 0.00380905354240247,
+        "recall": 0.020277464228930484,
+        "f1": 0.007597806701059639,
+        "parse_success_rate": 0.0
+      }
+    },
+    "complex": {
+      "mean": {
+        "mIoU": 0.8813378868427302,
+        "precision": 0.3004,
+        "recall": 0.5429666666666666,
+        "f1": 0.38680000000000003,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0021597735665506777,
+        "precision": 0.02175515264636555,
+        "recall": 0.046735449310156676,
+        "f1": 0.029905294960368933,
+        "parse_success_rate": 0.0
+      }
+    },
+    "indirect": {
+      "mean": {
+        "mIoU": 0.8792619538605216,
+        "precision": 0.30850000000000005,
+        "recall": 0.6537000000000001,
+        "f1": 0.4192,
+        "parse_success_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0042607726310038545,
+        "precision": 0.004030715403829285,
+        "recall": 0.008654863757833895,
+        "f1": 0.005295910371849836,
+        "parse_success_rate": 0.0
+      }
+    },
+    "overall": {
+      "mean": 0.8769204843982915,
+      "std": 0.0008632484098475176
+    }
+  }
+}

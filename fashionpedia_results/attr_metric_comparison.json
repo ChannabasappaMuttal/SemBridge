@@ -1,0 +1,15 @@
+{
+  "Token-Overlap (old)": {
+    "precision": 0.0402,
+    "recall": 0.0478,
+    "f1": 0.0358,
+    "n": 299
+  },
+  "CLIP-Semantic (new)": {
+    "precision": 0.589,
+    "recall": 0.6759,
+    "f1": 0.5931,
+    "n": 299,
+    "sim_threshold": 0.8
+  }
+}

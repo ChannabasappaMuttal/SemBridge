@@ -1,0 +1,150 @@
+{
+  "FLAN-T5-XL (Ours)": {
+    "simple": {
+      "mean": {
+        "mIoU": 0.8822,
+        "precision": 0.3256,
+        "recall": 0.7456,
+        "f1": 0.4533,
+        "parse_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0012,
+        "recall": 0.0,
+        "f1": 0.0012,
+        "parse_rate": 0.0
+      },
+      "parse_ms": 353.2
+    },
+    "ambiguous": {
+      "mean": {
+        "mIoU": 0.8822,
+        "precision": 0.3249,
+        "recall": 0.7456,
+        "f1": 0.4526,
+        "parse_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0005,
+        "recall": 0.0,
+        "f1": 0.0005,
+        "parse_rate": 0.0
+      },
+      "parse_ms": 323.6
+    },
+    "complex": {
+      "mean": {
+        "mIoU": 0.8794,
+        "precision": 0.3248,
+        "recall": 0.7302,
+        "f1": 0.4496,
+        "parse_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0001,
+        "precision": 0.0024,
+        "recall": 0.0016,
+        "f1": 0.002,
+        "parse_rate": 0.0
+      },
+      "parse_ms": 342.6
+    },
+    "indirect": {
+      "mean": {
+        "mIoU": 0.8747,
+        "precision": 0.2577,
+        "recall": 0.6184,
+        "f1": 0.3638,
+        "parse_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "parse_rate": 0.0
+      },
+      "parse_ms": 360.5
+    },
+    "overall": {
+      "mean_mIoU": 0.8798,
+      "std_mIoU": 0.0
+    }
+  },
+  "FLAN-T5-Base": {
+    "simple": {
+      "mean": {
+        "mIoU": 0.8858,
+        "precision": 0.3038,
+        "recall": 0.6914,
+        "f1": 0.4221,
+        "parse_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0005,
+        "precision": 0.0042,
+        "recall": 0.0117,
+        "f1": 0.006,
+        "parse_rate": 0.0
+      },
+      "parse_ms": 120.7
+    },
+    "ambiguous": {
+      "mean": {
+        "mIoU": 0.8929,
+        "precision": 0.2988,
+        "recall": 0.6784,
+        "f1": 0.4148,
+        "parse_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0005,
+        "recall": 0.0,
+        "f1": 0.0004,
+        "parse_rate": 0.0
+      },
+      "parse_ms": 106.0
+    },
+    "complex": {
+      "mean": {
+        "mIoU": 0.891,
+        "precision": 0.3,
+        "recall": 0.6855,
+        "f1": 0.4174,
+        "parse_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0007,
+        "precision": 0.0022,
+        "recall": 0.0,
+        "f1": 0.0021,
+        "parse_rate": 0.0
+      },
+      "parse_ms": 94.8
+    },
+    "indirect": {
+      "mean": {
+        "mIoU": 0.8375,
+        "precision": 0.1777,
+        "recall": 0.4382,
+        "f1": 0.2528,
+        "parse_rate": 1.0
+      },
+      "std": {
+        "mIoU": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "parse_rate": 0.0
+      },
+      "parse_ms": 113.4
+    },
+    "overall": {
+      "mean_mIoU": 0.8807,
+      "std_mIoU": 0.0003
+    }
+  }
+}
