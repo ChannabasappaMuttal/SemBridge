@@ -183,7 +183,7 @@ run_multi_seed_ablation(pipeline, gt_loader, num_images=200, seeds=[42, 123, 456
 SemBridge/
 ├── df2_results/                             # DeepFashion2 evaluation output files
 ├── fashionpedia_results/                    # Fashionpedia evaluation output files
-├── images/                                  # Sample input images for inference
+├── images/                                  # images for inference
 ├── SegBridge_deepfashion.py                 # DeepFashion2 pipeline + evaluation
 ├── SegBridge_fashionpedia.py                # Fashionpedia pipeline + evaluation
 ├── architecture_diagram.jpg                 # Pipeline architecture figure
