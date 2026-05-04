@@ -181,11 +181,16 @@ run_multi_seed_ablation(pipeline, gt_loader, num_images=200, seeds=[42, 123, 456
 
 ```
 SemBridge/
-├── SegBridge_deepfashion.py      # DeepFashion2 pipeline + evaluation
-├── SegBridge_fashionpedia.py     # Fashionpedia pipeline + evaluation
-├── README.md
-├── sam_vit_h_4b8939.pth          # SAM checkpoint (download separately)
-└── results/                      # Output JSON/CSV files (generated at runtime)
+├── df2_results/                             # DeepFashion2 evaluation output files
+├── fashionpedia_results/                    # Fashionpedia evaluation output files
+├── images/                                  # Sample input images for inference
+├── SegBridge_deepfashion.py                 # DeepFashion2 pipeline + evaluation
+├── SegBridge_fashionpedia.py                # Fashionpedia pipeline + evaluation
+├── architecture_diagram.jpg                 # Pipeline architecture figure
+├── requirements.txt                         # Python dependencies
+├── .gitignore                               # Git ignore rules
+├── LICENSE                                  # MIT License
+└── README.md   
 ```
 
 ***
