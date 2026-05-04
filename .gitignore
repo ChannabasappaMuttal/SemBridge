@@ -1,6 +1,35 @@
+# Model checkpoints (too large for GitHub)
 sam_vit_h_4b8939.pth
+*.pth
+*.pt
+
+# Python cache
 __pycache__/
 *.pyc
-eval_log.txt
+*.pyo
+*.pyd
+
+# Virtual environments
 venv/
+env/
+.env/
+
+# Logs and runtime outputs
+eval_log.txt
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Build artifacts
 *.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
