@@ -88,54 +88,6 @@ All HuggingFace models download automatically on first run. Ensure ~20 GB free d
 
 ***
 
-## Usage
-
-### DeepFashion2 Evaluation
-
-```bash
-python SegBridge_deepfashion.py \
-  --json_path /path/to/deepfashion2_val_coco.json \
-  --image_dir /path/to/deepfashion2/validation/image \
-  --sam_checkpoint ./sam_vit_h_4b8939.pth \
-  --num_images 200 \
-  --run_ablation
-```
-
-### Fashionpedia Evaluation
-
-```bash
-python SegBridge_fashionpedia.py \
-  --json_path /path/to/fashionpedia/instances_attributes_val2020.json \
-  --image_dir /path/to/fashionpedia/val/ \
-  --sam_checkpoint ./sam_vit_h_4b8939.pth \
-  --num_images 200 \
-  --run_ablation
-```
-
-### Single Image Inference (Quick Test)
-
-```python
-from SegBridge_deepfashion import FashionSegLLM
-
-pipeline = FashionSegLLM(
-    metadata_json="deepfashion2_val_coco.json",
-    sam_checkpoint="./sam_vit_h_4b8939.pth",
-)
-
-masks = pipeline.run(
-    image_path="your_image.jpg",
-    user_prompt="Segment the long jacket",
-    visualize=True,
-    save_path="output.png"
-)
-
-for m in masks:
-    print(f"  Label: {m['label']}")
-    print(f"  CLIP Attributes: {m.get('visual_attributes', 'N/A')}")
-```
-
-***
-
 ## Output Files
 
 After running evaluation, the following files are generated:
