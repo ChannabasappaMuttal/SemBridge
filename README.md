@@ -189,7 +189,6 @@ SemBridge/
 ├── architecture_diagram.jpg                 # Pipeline architecture figure
 ├── requirements.txt                         # Python dependencies
 ├── .gitignore                               # Git ignore rules
-├── LICENSE                                  # MIT License
 └── README.md   
 ```
 
