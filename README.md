@@ -1,6 +1,6 @@
 # SemBridge 🧥
 
-**LLM-Guided Semantic Segmentation for Fine-Grained Fashion Understanding**
+**LSemantic Bridge-Guided Training-Free Open-Vocabulary Segmentation for Fashion Visual Understanding**
 
 ***
 
