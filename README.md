@@ -10,35 +10,7 @@ SemBridge is a **training-free**, zero-shot pipeline that segments fashion items
 
 ### Architecture
 
-```
-User Prompt
-    │
-    ▼
-┌─────────────────────────────┐
-│   FLAN-T5-XL (LLM Parser)  │  ← Synonym expansion + attribute extraction
-│   + Hybrid Fallback Chain   │     (LLM → rule-based → TF-IDF → raw)
-└─────────────┬───────────────┘
-              │  Period-separated synonym prompts
-              ▼
-┌─────────────────────────────┐
-│   Grounding DINO (Tiny)     │  ← Zero-shot object detection
-└─────────────┬───────────────┘
-              │  Bounding boxes
-              ▼
-┌─────────────────────────────┐
-│   SAM ViT-H                 │  ← Pixel-level segmentation masks
-└─────────────┬───────────────┘
-              │  Cropped regions
-              ▼
-┌─────────────────────────────┐
-│   CLIP ViT-L/14             │  ← Open-vocabulary attribute recognition
-│   (color, pattern, material,│     (zero-shot, no training)
-│    style, detail)           │
-└─────────────────────────────┘
-              │
-              ▼
-   Masks + Categories + Visual Attributes
-```
+![image_alt](https://github.com/ChannabasappaMuttal/SemBridge/blob/main/architecture_diagram.jpg?raw=true)
 
 ***
 
