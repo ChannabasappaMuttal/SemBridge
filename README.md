@@ -2,12 +2,6 @@
 
 **LLM-Guided Semantic Segmentation for Fine-Grained Fashion Understanding**
 
-[
-[
-[
-
-> Official implementation of *"SemBridge: LLM-Guided Semantic Segmentation for Fine-Grained Fashion Item Understanding with Open-Vocabulary Attribute Recognition"* — submitted to The Visual Computer (Springer).
-
 ***
 
 ## Overview
