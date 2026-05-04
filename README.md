@@ -1,6 +1,6 @@
 # SemBridge 🧥
 
-**LSemantic Bridge-Guided Training-Free Open-Vocabulary Segmentation for Fashion Visual Understanding**
+**Semantic Bridge-Guided Training-Free Open-Vocabulary Segmentation for Fashion Visual Understanding**
 
 ***
 
