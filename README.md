@@ -230,7 +230,7 @@ This work builds on:
 - [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) — IDEA Research
 - [CLIP](https://github.com/openai/CLIP) — OpenAI
 - [FLAN-T5](https://huggingface.co/google/flan-t5-xl) — Google Research
-- [DeepFashion2](https://github.com/switchablenorms/DeepFashion2) dataset
+- [DeepFashion2](https://www.kaggle.com/datasets/thusharanair/deepfashion2-original-with-dataframes) dataset
 - [Fashionpedia](https://fashionpedia.github.io/home/) dataset
 
 ***
