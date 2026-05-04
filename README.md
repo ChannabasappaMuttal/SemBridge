@@ -61,13 +61,13 @@ User Prompt
 ## Datasets
 
 ### DeepFashion2
-- **Script:** `SegBridge-deepfashion.py`
+- **Script:** `SegBridge_deepfashion.py`
 - 13 garment categories: `short_sleeved_shirt`, `long_sleeved_shirt`, `short_sleeved_outwear`, `long_sleeved_outwear`, `vest`, `sling`, `shorts`, `trousers`, `skirt`, `short_sleeved_dress`, `long_sleeved_dress`, `vest_dress`, `sling_dress`
 - No attribute annotations; CLIP attribute prediction runs for qualitative richness only
 - GT format: COCO-format JSON (`deepfashion2_val_coco.json`)
 
 ### Fashionpedia
-- **Script:** `SegBridge-fashionpedia.py`
+- **Script:** `SegBridge_fashionpedia.py`
 - 46 fine-grained categories including garments, garment parts, and accessories
 - 294 attribute annotations (color, pattern, material, style, shape)
 - GT format: native Fashionpedia JSON (compatible with COCO API)
@@ -127,7 +127,7 @@ All HuggingFace models download automatically on first run. Ensure ~20 GB free d
 ### DeepFashion2 Evaluation
 
 ```bash
-python SegBridge-deepfashion.py \
+python SegBridge_deepfashion.py \
   --json_path /path/to/deepfashion2_val_coco.json \
   --image_dir /path/to/deepfashion2/validation/image \
   --sam_checkpoint ./sam_vit_h_4b8939.pth \
@@ -138,7 +138,7 @@ python SegBridge-deepfashion.py \
 ### Fashionpedia Evaluation
 
 ```bash
-python SegBridge-fashionpedia.py \
+python SegBridge_fashionpedia.py \
   --json_path /path/to/fashionpedia/instances_attributes_val2020.json \
   --image_dir /path/to/fashionpedia/val/ \
   --sam_checkpoint ./sam_vit_h_4b8939.pth \
@@ -149,7 +149,7 @@ python SegBridge-fashionpedia.py \
 ### Single Image Inference (Quick Test)
 
 ```python
-from SegBridge-deepfashion import FashionSegLLM
+from SegBridge_deepfashion import FashionSegLLM
 
 pipeline = FashionSegLLM(
     metadata_json="deepfashion2_val_coco.json",
@@ -202,7 +202,7 @@ Prompt styles evaluated: `simple`, `ambiguous`, `complex`, `indirect`
 Run multi-seed ablation (seeds 42, 123, 456) for statistically robust results:
 
 ```python
-from SegBridge-deepfashion import run_multi_seed_ablation, FashionSegLLM, FashionpediaGTLoader
+from SegBridge_deepfashion import run_multi_seed_ablation, FashionSegLLM, FashionpediaGTLoader
 
 pipeline = FashionSegLLM(metadata_json="...", sam_checkpoint="...")
 gt_loader = FashionpediaGTLoader(annotation_json="...", image_dir="...")
@@ -215,8 +215,8 @@ run_multi_seed_ablation(pipeline, gt_loader, num_images=200, seeds=[42, 123, 456
 
 ```
 SemBridge/
-├── SegBridge-deepfashion.py      # DeepFashion2 pipeline + evaluation
-├── SegBridge-fashionpedia.py     # Fashionpedia pipeline + evaluation
+├── SegBridge_deepfashion.py      # DeepFashion2 pipeline + evaluation
+├── SegBridge_fashionpedia.py     # Fashionpedia pipeline + evaluation
 ├── README.md
 ├── sam_vit_h_4b8939.pth          # SAM checkpoint (download separately)
 └── results/                      # Output JSON/CSV files (generated at runtime)
