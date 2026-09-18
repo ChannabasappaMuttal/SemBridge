@@ -167,12 +167,15 @@ CPU-only inference is supported but significantly slower (~10× per image).
 If you use SemBridge in your research, please cite:
 
 ```bibtex
-@article{SemBridge2026,
-  title   = {Semantic Bridge-Guided Training-Free Open-Vocabulary Fashion Segmentation},
-  author  = {Muttal, Channabasappa and Giri, Chandadevi and Mulla, Md Naveed and Dhane, Ratan},
-  journal = {The Visual Computer},
-  year    = {2026},
-  note    = {Manuscript submitted}
+@article{muttal2026semantic,
+  title={Semantic bridge-guided training-free open-vocabulary segmentation for fashion visual understanding},
+  author={Muttal, Channabasappa and Giri, Chandadevi and Mulla, Md Naveed and Dhane, Ratan},
+  journal={The Visual Computer},
+  volume={42},
+  number={11},
+  pages={520},
+  year={2026},
+  publisher={Springer}
 }
 ```
 
